@@ -1,0 +1,19 @@
+{
+  "name": "create-saga-core",
+  "version": "0.1.0",
+  "description": "convenience initializer for redux-saga apps",
+  "module": "source/index.js",
+  "repository": "https://gitlab.com/refectjam/create-saga-core.git",
+  "keywords": [
+    "javascript",
+    "redux",
+    "redux-saga",
+    "saga"
+  ],
+  "author": "Jared Mathews <refectjam@gmail.com>",
+  "license": "Beerware",
+  "peerDependencies": {
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  }
+}
