@@ -1,9 +1,9 @@
 {
   "name": "create-saga-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "convenience initializer for redux-saga apps",
   "module": "source/index.js",
-  "repository": "https://gitlab.com/refectjam/create-saga-core.git",
+  "repository": "https://github.com/refectjam/create-saga-core.git",
   "keywords": [
     "javascript",
     "redux",
