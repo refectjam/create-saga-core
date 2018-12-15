@@ -1,7 +1,8 @@
 {
   "name": "create-saga-core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "convenience initializer for redux-saga apps",
+  "main": "cjs.bundle.js",
   "module": "source/index.js",
   "repository": "https://github.com/refectjam/create-saga-core.git",
   "keywords": [
@@ -15,5 +16,11 @@
   "peerDependencies": {
     "redux": "^4.0.0",
     "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.67.4"
+  },
+  "scripts": {
+    "bundle-cjs": "rollup --config"
   }
 }
