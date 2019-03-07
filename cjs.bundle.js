@@ -15,7 +15,7 @@ function createSagaCore({ reducer, reducers, sagas, initializer }) {
   const externalSagas = sagas || {};
   store.api = createApi(sagaMiddleware.run, externalSagas);
   const initializerSaga = initializer || function*() {};
-  const initialize = sagaMiddleware.run(initializerSaga).done;
+  const initialize = sagaMiddleware.run(initializerSaga).toPromise();
   return initialize.then(() => store)
 }
 
